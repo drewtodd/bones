@@ -1,0 +1,12 @@
+# theme.toml
+
+name = "bones"
+version = "1.0.0"
+date = "2024-07-26"
+description = "A minimal, bare-bones Hugo theme for custom styling."
+author = "Your Name"
+author_url = "https://drewux.com"
+homepage = "https://github.com/drewtodd/bones"
+repository = "https://github.com/drewtodd/bones"
+keywords = ["minimal", "bare-bones", "custom styling"]
+min_version = "0.129.0"
