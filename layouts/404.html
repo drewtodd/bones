@@ -1,4 +1,22 @@
-{{ define "main" }}
-    <h1>Page Not Found</h1>
-    <p>We're sorry, but the page you requested cannot be found.</p>
-{{ end }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found</title>
+    <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+</head>
+<body>
+    <header>
+        {{ partial "header.html" . }}
+    </header>
+    <main>
+        <h1>Page Not Found</h1>
+        <p>Sorry, but the page you were looking for could not be found.</p>
+        <a href="{{ .Site.BaseURL }}">Go back to the homepage</a>
+    </main>
+    <footer>
+        {{ partial "footer.html" . }}
+    </footer>
+</body>
+</html>
